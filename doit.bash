@@ -132,8 +132,8 @@ function make_gffs {
 (
     set -x
     cd $THIS_DIR
-    rm -rf results #temp
-    mkdir results #temp
+    rm -rf results temp
+    mkdir results temp
 )
 
 # ------------------------------------------------------------------------
